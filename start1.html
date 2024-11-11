@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body, html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      display: flex;
+      height: 100vh;
+      width: 100%;
+    }
+    .form-container, .image-container {
+      width: 50%;
+      padding: 20px;
+    }
+    .form-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffffff;
+    }
+    .form-container form {
+      width: 100%;
+      max-width: 400px;
+      text-align: left;
+      color: rgb(178, 178, 212);
+      font-size: 1.2em; 
+    }
+    .form-container h2 {
+      font-size: 2.5em; 
+      color: rgb(178, 178, 212);
+      margin-bottom: 20px;
+    }
+    .form-container label {
+      font-size: 1.2em; 
+      color: rgb(178, 178, 212);
+      margin-bottom: 5px;
+      display: block;
+    }
+    .form-container input, .form-container textarea {
+      width: 100%;
+      padding: 12px;
+      font-size: 1.1em; 
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .form-container button {
+      width: 96%;
+      padding: 12px; 
+      background-color: rgb(178, 178, 212);
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 1.2em; 
+      cursor: pointer;
+    }
+    .image-container {
+      background-image: url('yipee.png'); 
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="form-container">
+    <form>
+      <h2>Create Your Account</h2>
+      <label for="fullname">Full Name</label>
+      <input type="text" id="fullname" placeholder="Enter your Full Name">
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" placeholder="Enter Your Mail ID">
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" placeholder="Enter your phone Number">
+
+      <label for="address">Address</label>
+      <textarea style="font-family:Arial, sans-serif;" id="address" placeholder="Enter your Address"></textarea>
+
+      <button type="submit"><a href="http://127.0.0.1:5500/to-demo.html" style="text-decoration: none;color: white;" >Create Account</a></button>
+    </form>
+    
+  </div>
+  <div class="image-container"></div>
+</div>
+
+</body>
+</html>

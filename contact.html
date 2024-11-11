@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          padding-top: 10px;
+          overflow: hidden;
+        }
+        
+        
+        
+        li a {
+          display: block;
+          color: black;
+          float: right;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          border: 2px solid white;
+          border-radius: 10px;
+        }
+        li a:hover{background-color: rgb(212, 212, 246);}
+        .b{display: block;
+          color: black;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        float: left;
+    font-size: xx-large;
+  }
+  
+    .c{
+        display: block;
+          color: black;
+          float: right;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          border:2px solid rgb(206, 206, 244);
+          border-radius: 10px;
+          background-color: rgb(152, 152, 211);
+
+    }
+    .c:hover{background-color: #d9376e;
+    color: white;}
+    .d{
+        border: 2px solid lavender;
+        margin-top: 9%;
+        height: 50%;
+        width: 30%;
+        margin-left: 10%;
+
+    }
+    .e{color: black;
+        text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          border:3px solid black;
+          border-radius: 10px;
+          background-color: rgb(152, 152, 211);
+       
+    }
+    .e:hover{background-color: black;
+        color: white;}
+      
+   
+        .f{border: 2px black;
+        height: 700px;
+        width: 200%;
+        background-color: lavender;
+        font-size: large;
+        }
+        .d{color: white;
+          margin-left: 10%;
+          margin-top: 0px;
+        background-color:rgb(187, 187, 252) ;
+    text-align: center;}
+    .g{color: black;
+          margin-left: 0px;
+          margin-top: 0px;
+        background-color:white ;
+    text-align: center;
+  font-size: x-large;}
+  input[type=text]{padding: 12px 12px;
+  width:500px;
+}
+  input[type=email]{padding: 12px 12px;
+    width:500px;
+}
+    input[type=checkbox]{margin-top: 30px;}
+    input[type=submit]{margin-top: 30px;
+    border: 2px solid;
+  background-color: rgb(156, 156, 231);
+width:40%;
+height: 50px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: large;
+color: white;
+}
+input[type=submit]:hover{background-color: #d9376e;}
+.asterisk{color:black;
+font-size:large;}
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="b"><strong>STUDY BUDDY</strong></li>
+        <li><a  href="http://127.0.0.1:5500/features.html">FEATURES</a></li>
+        <li><a href="http://127.0.0.1:5500/contact.html">CONTACT</a></li>
+        <li><a href="http://127.0.0.1:5500/pricing.html">PRICING</a></li>
+        <li><a class="c" href="http://127.0.0.1:5500/start1.html">Start for free</a></li>
+      </ul>
+      <p style="font-size:400%;text-align:center;margin-top: 3%;"><b>Get in touch with us!</b></p>
+    <div class="f">
+        <div class="d">
+        <h1 style="font-size: xx-large;">Email our support team</h1>
+        <p>Let us know what we can help you with.</p>
+            <p>Our team member will assist you as soon as possible.</p>
+        <div class="g">
+    <form action="backend.php" id="id">
+      <label for="Name"> Name<span class="asterisk">*</span><div><input type="text" name="Name" required></div> </label>
+      <label for="email">Email<span class="asterisk">*</span><div><input type="email" name="Email" required> </div></label>
+      <label for="question">What is your question about?<span class="asterisk">*</span> <div><textarea rows="5"  cols="70%" name="" required></textarea></div> </label>
+      <label for="text">Tell us more<div><textarea rows="10" cols="70%" name="" ></textarea></div></label>
+      <label for="checkbox"><div><input type="checkbox" name="" required> I agree to StudyBuddy's Privacy Policy<span class="asterisk">*</span></div></label>
+      <label for="Submit"><div><input type="submit" value="Send"> </div></label>
+     </form>
+    </div>
+    </div>
+</body>
+</html>

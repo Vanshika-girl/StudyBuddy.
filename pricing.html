@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          
+    ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          padding-top: 10px;
+          overflow: hidden;
+        }
+        
+        
+        
+        li a {
+          display: block;
+          color: black;
+          float: right;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          border: 2px solid white;
+          border-radius: 10px;
+        }
+        li a:hover{background-color: rgb(212, 212, 246);}
+        .b{display: block;
+          color: black;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        float: left;
+    font-size: xx-large;
+  }
+  
+    .c{
+        display: block;
+          color: black;
+          float: right;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          border:2px solid rgb(206, 206, 244);
+          border-radius: 10px;
+          background-color: rgb(152, 152, 211);
+
+    }
+    .c:hover{background-color: #d9376e;
+    color: white;}
+    .d{
+        border: 2px solid lavender;
+        margin-top: 9%;
+        height: 50%;
+        width: 30%;
+        margin-left: 10%;
+
+    }
+    .cta-button {
+      display: inline-block;
+      margin-top: 50px;
+      background-color: rgb(140, 140, 196);
+      color: white;
+      padding: 20px 40px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 22px;
+      font-weight: bold;
+      margin-left: 35%;
+    }
+    
+    .cta-button:hover{background-color:#d9376e ;}
+        .d{border: 2px solid white;
+        width:40%;
+      height:30%;
+    margin-left:30% ;
+margin-top: 50px;}
+      .heading{margin-top: 40px;
+      font-size: 400%;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;}
+      .subheading{font-size:200%;
+      text-align: center;
+    margin-top: 50px;}
+    .hello {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+        .pricing-container {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            width: 100%;
+            justify-content: center;
+        }
+        .pricing-plan {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            max-width: 300px;
+            text-align: center;
+        }
+        .pricing-plan img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 10px;
+        }
+        .plan-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .plan-price {
+            font-size: 28px;
+            color: #333;
+            margin: 10px 0;
+        }
+        .plan-features {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+            text-align: left;
+        }
+        .plan-features li {
+            margin: 8px 0;
+        }
+   </style>  
+</head>
+<body>
+    <ul>
+        <li class="b"><strong>STUDY BUDDY</strong></li>
+        <li><a  href="http://127.0.0.1:5500/features.html">FEATURES</a></li>
+        <li><a href="http://127.0.0.1:5500/contact.html">CONTACT</a></li>
+        <li><a href="http://127.0.0.1:5500/pricing.html">PRICING</a></li>
+        <li><a class="c" href="http://127.0.0.1:5500/start1.html">Start for free</a></li>
+      </ul>
+      <div class="d">
+      <div class="heading">Choose your path to productivity</div>
+      <div class="subheading">Use StudyBuddy for free forever or upgrade to unlock our most powerful features for work and collaboration.</div>
+      <a class="cta-button" href="http://127.0.0.1:5500/start1.html">Start for free</a>
+      </div>
+      <div class="hello">
+      <div class="pricing-container">
+        
+        <div class="pricing-plan">
+            <img src="beginner.png" alt="Beginner Icon">
+            <h2 class="plan-title">Beginner</h2>
+            <p class="plan-price">US $0</p>
+            <p>Start organizing your life for free</p>
+            <ul class="plan-features">
+                <li>5 personal projects</li>
+                <li>Smart quick add</li>
+                <li>Flexible list & board layouts</li>
+                <li>3 filter views</li>
+                <li>1 week activity history</li>
+                <li>Integrate email, calendar, and more</li>
+            </ul>
+        </div>
+
+       
+        <div class="pricing-plan">
+            <img src="pro.png" alt="Pro Icon">
+            <h2 class="plan-title">Pro</h2>
+            <p class="plan-price">US $4/month</p>
+            <p>Organize your work and life</p>
+            <ul class="plan-features">
+                <li>300 personal projects</li>
+                <li>Calendar layout</li>
+                <li>Task reminders & duration</li>
+                <li>150 filter views</li>
+                <li>Unlimited activity history</li>
+                <li>AI Assistant</li>
+                <li>Deadlines (Coming soon!)</li>
+            </ul>
+        </div>
+
+        
+        <div class="pricing-plan">
+            <img src="business.png" alt="Business Icon">
+            <h2 class="plan-title">Business</h2>
+            <p class="plan-price">US $6/user/month</p>
+            <p>Manage your teamwork, too</p>
+            <ul class="plan-features">
+                <li>Shared team workspace</li>
+                <li>Up to 500 team projects</li>
+                <li>Calendar layout for team projects</li>
+                <li>Granular team activity logs</li>
+                <li>Shared templates</li>
+                <li>1000 team members & guests</li>
+                <li>1000 project folders</li>
+            </ul>
+        </div>
+    </div>
+    </div>
+
+</body>
+</html>
